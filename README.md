@@ -19,3 +19,5 @@ This is an iOS App based in the TVMaze API. Its experience try to follows Apple 
 - Show selection for more details
 - Unit tests for `SeriesCatalogViewModel`
 - Supports dark and light mode
+- Implementation of [interface modules](https://swiftrocks.com/reducing-ios-build-times-by-using-interface-targets) for faster compiler times and healthier dependency graphs.
+- Decorated View and ViewController to avoid multiple inheritance of UIView and UIViewcontroller, reducing the final app size.
