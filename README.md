@@ -1,6 +1,8 @@
 # TVMazeAppiOS
 This is an iOS App based in the TVMaze API. Its experience try to follows Apple Humam Interface Guidelines and overall looks.
 
+[Demo Video](https://imgur.com/YaFF1m7)
+
 ## Running
   That should be easy, you should be able to just open it and run it. The app do not use any third party dependency, so no need to download of fetch anything extra. It does contains local Swift Packages. In case you get error messages saying something like 'Missing package XYZ' do the following: 
 
