@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE3EC2BF29629D9B00A35CA4 /* SeriesDetail in Frameworks */ = {isa = PBXBuildFile; productRef = BE3EC2BE29629D9B00A35CA4 /* SeriesDetail */; };
+		BE3EC2C129629D9B00A35CA4 /* SeriesDetailInterface in Frameworks */ = {isa = PBXBuildFile; productRef = BE3EC2C029629D9B00A35CA4 /* SeriesDetailInterface */; };
+		BE4DCB27295F70040090EE55 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4DCB26295F70040090EE55 /* DependencyContainer.swift */; };
+		BE5D7634295F815400ED403D /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = BE5D7633295F815400ED403D /* Core */; };
+		BE5D7636295F815400ED403D /* CoreInterface in Frameworks */ = {isa = PBXBuildFile; productRef = BE5D7635295F815400ED403D /* CoreInterface */; };
+		BE5D7638295F815400ED403D /* EpisodeDetail in Frameworks */ = {isa = PBXBuildFile; productRef = BE5D7637295F815400ED403D /* EpisodeDetail */; };
+		BE5D763A295F815400ED403D /* EpisodeDetailInterface in Frameworks */ = {isa = PBXBuildFile; productRef = BE5D7639295F815400ED403D /* EpisodeDetailInterface */; };
+		BE5D763C295F815400ED403D /* TVMazeServices in Frameworks */ = {isa = PBXBuildFile; productRef = BE5D763B295F815400ED403D /* TVMazeServices */; };
+		BE5D763E295F815400ED403D /* TVMazeServicesInterface in Frameworks */ = {isa = PBXBuildFile; productRef = BE5D763D295F815400ED403D /* TVMazeServicesInterface */; };
+		BE8FFB98295FD094002FCE9B /* LayoutExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = BE8FFB97295FD094002FCE9B /* LayoutExtensions */; };
+		BEB298C5295F8D5600DC124F /* SeriesCatalog in Frameworks */ = {isa = PBXBuildFile; productRef = BEB298C4295F8D5600DC124F /* SeriesCatalog */; };
+		BEB298C7295F8D5600DC124F /* SeriesCatalogInterface in Frameworks */ = {isa = PBXBuildFile; productRef = BEB298C6295F8D5600DC124F /* SeriesCatalogInterface */; };
+		BEC94995295F40350033F46F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC94994295F40350033F46F /* AppDelegate.swift */; };
+		BEC94997295F40350033F46F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC94996295F40350033F46F /* SceneDelegate.swift */; };
+		BEC9499E295F40360033F46F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC9499D295F40360033F46F /* Assets.xcassets */; };
+		BEC949A1295F40360033F46F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC9499F295F40360033F46F /* LaunchScreen.storyboard */; };
+		BEC949AC295F40360033F46F /* TVMazeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC949AB295F40360033F46F /* TVMazeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEC949A8295F40360033F46F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEC94989295F40350033F46F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEC94990295F40350033F46F;
+			remoteInfo = TVMaze;
+		};
+		BEC949B2295F40360033F46F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEC94989295F40350033F46F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEC94990295F40350033F46F;
+			remoteInfo = TVMaze;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE035019295F5D880023E79E /* SeriesCatalog */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SeriesCatalog; sourceTree = "<group>"; };
+		BE03501A295F5D880023E79E /* EpisodeDetail */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = EpisodeDetail; sourceTree = "<group>"; };
+		BE03501B295F5D880023E79E /* SeriesDetail */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SeriesDetail; sourceTree = "<group>"; };
+		BE4DCB25295F5F600090EE55 /* TVMazeServices */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TVMazeServices; sourceTree = "<group>"; };
+		BE4DCB26295F70040090EE55 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
+		BE8FFB96295FC363002FCE9B /* LayoutExtensions */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LayoutExtensions; sourceTree = "<group>"; };
+		BEC94991295F40350033F46F /* TVMaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVMaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC94994295F40350033F46F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEC94996295F40350033F46F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BEC9499D295F40360033F46F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEC949A0295F40360033F46F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEC949A2295F40360033F46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC949A7295F40360033F46F /* TVMazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVMazeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC949AB295F40360033F46F /* TVMazeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVMazeTests.swift; sourceTree = "<group>"; };
+		BEC949B1295F40360033F46F /* TVMazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVMazeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEDAF9DC295F53AC00951427 /* Core */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Core; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEC9498E295F40350033F46F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5D7638295F815400ED403D /* EpisodeDetail in Frameworks */,
+				BE5D763E295F815400ED403D /* TVMazeServicesInterface in Frameworks */,
+				BE5D7634295F815400ED403D /* Core in Frameworks */,
+				BE3EC2C129629D9B00A35CA4 /* SeriesDetailInterface in Frameworks */,
+				BEB298C7295F8D5600DC124F /* SeriesCatalogInterface in Frameworks */,
+				BE5D763C295F815400ED403D /* TVMazeServices in Frameworks */,
+				BE5D7636295F815400ED403D /* CoreInterface in Frameworks */,
+				BE8FFB98295FD094002FCE9B /* LayoutExtensions in Frameworks */,
+				BEB298C5295F8D5600DC124F /* SeriesCatalog in Frameworks */,
+				BE3EC2BF29629D9B00A35CA4 /* SeriesDetail in Frameworks */,
+				BE5D763A295F815400ED403D /* EpisodeDetailInterface in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC949A4295F40360033F46F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC949AE295F40360033F46F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE7B7EEA295F4C4300A77840 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				BE8FFB96295FC363002FCE9B /* LayoutExtensions */,
+				BE4DCB25295F5F600090EE55 /* TVMazeServices */,
+				BE03501A295F5D880023E79E /* EpisodeDetail */,
+				BE035019295F5D880023E79E /* SeriesCatalog */,
+				BE03501B295F5D880023E79E /* SeriesDetail */,
+				BEDAF9DC295F53AC00951427 /* Core */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		BEC94988295F40350033F46F = {
+			isa = PBXGroup;
+			children = (
+				BE7B7EEA295F4C4300A77840 /* Packages */,
+				BEC94993295F40350033F46F /* TVMaze */,
+				BEC949AA295F40360033F46F /* TVMazeTests */,
+				BEC949B4295F40360033F46F /* TVMazeUITests */,
+				BEC94992295F40350033F46F /* Products */,
+				BEDAF9DD295F59BD00951427 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BEC94992295F40350033F46F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEC94991295F40350033F46F /* TVMaze.app */,
+				BEC949A7295F40360033F46F /* TVMazeTests.xctest */,
+				BEC949B1295F40360033F46F /* TVMazeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEC94993295F40350033F46F /* TVMaze */ = {
+			isa = PBXGroup;
+			children = (
+				BE4DCB26295F70040090EE55 /* DependencyContainer.swift */,
+				BEC94994295F40350033F46F /* AppDelegate.swift */,
+				BEC94996295F40350033F46F /* SceneDelegate.swift */,
+				BEC9499D295F40360033F46F /* Assets.xcassets */,
+				BEC9499F295F40360033F46F /* LaunchScreen.storyboard */,
+				BEC949A2295F40360033F46F /* Info.plist */,
+			);
+			path = TVMaze;
+			sourceTree = "<group>";
+		};
+		BEC949AA295F40360033F46F /* TVMazeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEC949AB295F40360033F46F /* TVMazeTests.swift */,
+			);
+			path = TVMazeTests;
+			sourceTree = "<group>";
+		};
+		BEC949B4295F40360033F46F /* TVMazeUITests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TVMazeUITests;
+			sourceTree = "<group>";
+		};
+		BEDAF9DD295F59BD00951427 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEC94990295F40350033F46F /* TVMaze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC949BB295F40360033F46F /* Build configuration list for PBXNativeTarget "TVMaze" */;
+			buildPhases = (
+				BEC9498D295F40350033F46F /* Sources */,
+				BEC9498E295F40350033F46F /* Frameworks */,
+				BEC9498F295F40350033F46F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVMaze;
+			packageProductDependencies = (
+				BE5D7633295F815400ED403D /* Core */,
+				BE5D7635295F815400ED403D /* CoreInterface */,
+				BE5D7637295F815400ED403D /* EpisodeDetail */,
+				BE5D7639295F815400ED403D /* EpisodeDetailInterface */,
+				BE5D763B295F815400ED403D /* TVMazeServices */,
+				BE5D763D295F815400ED403D /* TVMazeServicesInterface */,
+				BEB298C4295F8D5600DC124F /* SeriesCatalog */,
+				BEB298C6295F8D5600DC124F /* SeriesCatalogInterface */,
+				BE8FFB97295FD094002FCE9B /* LayoutExtensions */,
+				BE3EC2BE29629D9B00A35CA4 /* SeriesDetail */,
+				BE3EC2C029629D9B00A35CA4 /* SeriesDetailInterface */,
+			);
+			productName = TVMaze;
+			productReference = BEC94991295F40350033F46F /* TVMaze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEC949A6295F40360033F46F /* TVMazeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC949BE295F40360033F46F /* Build configuration list for PBXNativeTarget "TVMazeTests" */;
+			buildPhases = (
+				BEC949A3295F40360033F46F /* Sources */,
+				BEC949A4295F40360033F46F /* Frameworks */,
+				BEC949A5295F40360033F46F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEC949A9295F40360033F46F /* PBXTargetDependency */,
+			);
+			name = TVMazeTests;
+			productName = TVMazeTests;
+			productReference = BEC949A7295F40360033F46F /* TVMazeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEC949B0295F40360033F46F /* TVMazeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC949C1295F40360033F46F /* Build configuration list for PBXNativeTarget "TVMazeUITests" */;
+			buildPhases = (
+				BEC949AD295F40360033F46F /* Sources */,
+				BEC949AE295F40360033F46F /* Frameworks */,
+				BEC949AF295F40360033F46F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEC949B3295F40360033F46F /* PBXTargetDependency */,
+			);
+			name = TVMazeUITests;
+			productName = TVMazeUITests;
+			productReference = BEC949B1295F40360033F46F /* TVMazeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEC94989295F40350033F46F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					BEC94990295F40350033F46F = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					BEC949A6295F40360033F46F = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = BEC94990295F40350033F46F;
+					};
+					BEC949B0295F40360033F46F = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = BEC94990295F40350033F46F;
+					};
+				};
+			};
+			buildConfigurationList = BEC9498C295F40350033F46F /* Build configuration list for PBXProject "TVMaze" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEC94988295F40350033F46F;
+			productRefGroup = BEC94992295F40350033F46F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEC94990295F40350033F46F /* TVMaze */,
+				BEC949A6295F40360033F46F /* TVMazeTests */,
+				BEC949B0295F40360033F46F /* TVMazeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEC9498F295F40350033F46F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC949A1295F40360033F46F /* LaunchScreen.storyboard in Resources */,
+				BEC9499E295F40360033F46F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC949A5295F40360033F46F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC949AF295F40360033F46F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEC9498D295F40350033F46F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC94995295F40350033F46F /* AppDelegate.swift in Sources */,
+				BE4DCB27295F70040090EE55 /* DependencyContainer.swift in Sources */,
+				BEC94997295F40350033F46F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC949A3295F40360033F46F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC949AC295F40360033F46F /* TVMazeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC949AD295F40360033F46F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEC949A9295F40360033F46F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEC94990295F40350033F46F /* TVMaze */;
+			targetProxy = BEC949A8295F40360033F46F /* PBXContainerItemProxy */;
+		};
+		BEC949B3295F40360033F46F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEC94990295F40350033F46F /* TVMaze */;
+			targetProxy = BEC949B2295F40360033F46F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEC9499F295F40360033F46F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEC949A0295F40360033F46F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEC949B9295F40360033F46F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEC949BA295F40360033F46F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEC949BC295F40360033F46F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WT38KCE65L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TVMaze/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TVMaze;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pedro.nadolny.TVMaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEC949BD295F40360033F46F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WT38KCE65L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TVMaze/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TVMaze;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pedro.nadolny.TVMaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BEC949BF295F40360033F46F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WT38KCE65L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pedro.nadolny.TVMazeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVMaze.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TVMaze";
+			};
+			name = Debug;
+		};
+		BEC949C0295F40360033F46F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WT38KCE65L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pedro.nadolny.TVMazeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVMaze.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TVMaze";
+			};
+			name = Release;
+		};
+		BEC949C2295F40360033F46F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WT38KCE65L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pedro.nadolny.TVMazeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TVMaze;
+			};
+			name = Debug;
+		};
+		BEC949C3295F40360033F46F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WT38KCE65L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pedro.nadolny.TVMazeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TVMaze;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEC9498C295F40350033F46F /* Build configuration list for PBXProject "TVMaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC949B9295F40360033F46F /* Debug */,
+				BEC949BA295F40360033F46F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC949BB295F40360033F46F /* Build configuration list for PBXNativeTarget "TVMaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC949BC295F40360033F46F /* Debug */,
+				BEC949BD295F40360033F46F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC949BE295F40360033F46F /* Build configuration list for PBXNativeTarget "TVMazeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC949BF295F40360033F46F /* Debug */,
+				BEC949C0295F40360033F46F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC949C1295F40360033F46F /* Build configuration list for PBXNativeTarget "TVMazeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC949C2295F40360033F46F /* Debug */,
+				BEC949C3295F40360033F46F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BE3EC2BE29629D9B00A35CA4 /* SeriesDetail */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SeriesDetail;
+		};
+		BE3EC2C029629D9B00A35CA4 /* SeriesDetailInterface */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SeriesDetailInterface;
+		};
+		BE5D7633295F815400ED403D /* Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Core;
+		};
+		BE5D7635295F815400ED403D /* CoreInterface */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoreInterface;
+		};
+		BE5D7637295F815400ED403D /* EpisodeDetail */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = EpisodeDetail;
+		};
+		BE5D7639295F815400ED403D /* EpisodeDetailInterface */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = EpisodeDetailInterface;
+		};
+		BE5D763B295F815400ED403D /* TVMazeServices */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TVMazeServices;
+		};
+		BE5D763D295F815400ED403D /* TVMazeServicesInterface */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TVMazeServicesInterface;
+		};
+		BE8FFB97295FD094002FCE9B /* LayoutExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LayoutExtensions;
+		};
+		BEB298C4295F8D5600DC124F /* SeriesCatalog */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SeriesCatalog;
+		};
+		BEB298C6295F8D5600DC124F /* SeriesCatalogInterface */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SeriesCatalogInterface;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BEC94989295F40350033F46F /* Project object */;
+}
