@@ -18,3 +18,4 @@ This is an iOS App based in the TVMaze API. Its experience try to follows Apple 
 - Search bar for searching shows by name
 - Show selection for more details
 - Unit tests for `SeriesCatalogViewModel`
+- Supports dark and light mode
